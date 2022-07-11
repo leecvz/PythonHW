@@ -10,9 +10,9 @@ def ask_gender():
         gender_list.append(new)
 
     if "boy" in gender_list:
-        return ("he" , "him" , "his", "Onee-chan" , "boy")
+        return ("he" , "him" , "his", "Onii-chan" , "boy")
     elif "girl" in gender_list:
-        return ("she" , "her" , "her", "Onii-chan" , "girl")
+        return ("she" , "her" , "her", "Onee-chan" , "girl")
     
     #if neither "boy" or "girl" is in the sentence, the user should be asked again
     else:
